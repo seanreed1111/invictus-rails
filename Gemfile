@@ -61,3 +61,11 @@ group :test do
   gem 'launchy'
   gem 'selenium-webdriver'
 end
+
+#for production on Heroku
+group :production do
+  gem 'rails_12factor'
+end
+
+ruby '2.2.1'
+

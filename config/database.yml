@@ -18,6 +18,6 @@ test:
   <<: *default
   database: invictus-rails_test
 
-production:
-  <<: *default
-  database: invictus-rails_production
+# production:
+#   <<: *default
+#   database: invictus-rails_production
