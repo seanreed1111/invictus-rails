@@ -85,6 +85,7 @@
     </div>
   </div>
 </div>
+
 <!-- Services Section -->
 <div id="services-section" class="text-center">
   <div class="container">
@@ -132,6 +133,7 @@
     </div>
   </div>
 </div>
+
 <!-- Portfolio Section -->
 <div id="works-section">
   <div class="container"> <!-- Container -->
@@ -250,6 +252,7 @@
     </div>
   </div>
 </div>
+
 <!-- Team Section -->
 <div id="team-section" class="text-center">
   <div class="container">
@@ -261,7 +264,7 @@
     </div>
     <div id="row" class="wow fadeInDown" data-wow-delay="200ms">
       <div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="img/team/01.jpg" alt="..." class="team-img">
+        <div class="thumbnail"> <%= image_tag 'team/01.jpg', class:"team-img", alt: "team 1" %>
           <div class="caption">
             <h3>Jessica Wally</h3>
             <p>CEO / Founder</p>
@@ -274,7 +277,7 @@
         </div>
       </div>
       <div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="img/team/02.jpg" alt="..." class="team-img">
+        <div class="thumbnail"> <%= image_tag 'team/02.jpg', class:"team-img", alt: "team 2" %>
           <div class="caption">
             <h3>Mike Sloan</h3>
             <p>Web Designer</p>
@@ -287,7 +290,7 @@
         </div>
       </div>
       <div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="img/team/03.jpg" alt="..." class="team-img">
+        <div class="thumbnail"> <%= image_tag 'team/03.jpg', class:"team-img", alt: "team 3" %>
           <div class="caption">
             <h3>Michele Doe</h3>
             <p>Web Designer</p>
@@ -300,7 +303,7 @@
         </div>
       </div>
       <div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="img/team/04.jpg" alt="..." class="team-img">
+        <div class="thumbnail"> <%= image_tag 'team/04.jpg', class:"team-img", alt: "team 4" %>
           <div class="caption">
             <h3>Larry Evans</h3>
             <p>Project Manager</p>
@@ -326,15 +329,15 @@
     <div class="row">
       <div class="col-md-8 col-md-offset-2 wow fadeInDown" data-wow-delay="200ms">
         <div id="testimonial" class="owl-carousel owl-theme">
-          <div class="item"> <img src="img/clients/01.jpg" alt=""/>
+          <div class="item"> <%= image_tag 'clients/01.jpg', alt: "Testimonial 1" %>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam.</p>
             <p><strong>John DOE</strong>, CEO, Company.</p>
           </div>
-          <div class="item"> <img src="img/clients/02.jpg" alt=""/>
+          <div class="item"> <%= image_tag 'clients/02.jpg', alt: "Testimonial 2" %>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam.</p>
             <p><strong>Jenny DOE</strong>, CEO, Company.</p>
           </div>
-          <div class="item"> <img src="img/clients/03.jpg" alt=""/>
+          <div class="item"> <%= image_tag 'clients/03.jpg', alt: "Testimonial 3" %>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam.</p>
             <p><strong>John DOEn</strong>, CEO, Company.</p>
           </div>
