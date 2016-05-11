@@ -6,13 +6,13 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <%= link_to "Invictus", root_url, class:"navbar-brand" %>
+      <%= link_to "Invictus", root_path, class:"navbar-brand" %>
     </div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home" class="page-scroll">Home</a></li>
+        <li><%= link_to "Home", root_path, class:"page-scroll"%></li>
         <li><a href="#about-section" class="page-scroll">About</a></li>
         <li><a href="#services-section" class="page-scroll">Services</a></li>
         <li><a href="#works-section" class="page-scroll">Portfolio</a></li>
@@ -105,7 +105,7 @@
         <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-pie-chart"></i>
-        <h4>Analystics</h4>
+        <h4>Analytics</h4>
         <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-line-chart"></i>
