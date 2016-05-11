@@ -82,7 +82,7 @@ ul, ol {
   font-size: 22px;
   color: #fff;
   font-weight: 600;
-  background-image: url(logo-icon.png);
+  background-image: url('logo-icon.png');
   background-position: left center;
   background-repeat: no-repeat;
   padding-left: 34px;
@@ -120,7 +120,7 @@ ul, ol {
 }
 /* Home Style */
 header {
-  background-image: url('header-bg.jpg') no-repeat bottom center;
+  background: url('header-bg.jpg') no-repeat bottom center;
   background-size: cover;
   color: #cfcfcf;
   position: relative;
