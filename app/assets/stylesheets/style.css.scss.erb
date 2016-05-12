@@ -82,7 +82,7 @@ ul, ol {
   font-size: 22px;
   color: #fff;
   font-weight: 600;
-  background-image: url(<%= asset_path 'logo-icon.png' %>);
+  background-image: url("<%= asset_path('logo-icon.png') %>");
   background-position: left center;
   background-repeat: no-repeat;
   padding-left: 34px;
@@ -120,7 +120,7 @@ ul, ol {
 }
 /* Home Style */
 header {
-  background-image: url(<%= asset_path 'header-bg.jpg' %>) no-repeat bottom center;
+  background-image: url("<%= asset_path('header-bg.jpg') %>");
   background-size: cover;
   color: #cfcfcf;
   position: relative;
@@ -474,7 +474,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /* Testimonials Section */
 #testimonials-section {
   padding: 100px 0 60px 0;
-  background: image-url('testimonials-bg.jpg');
+  
+  background-image: url("<%= asset_path('testimonials-bg.jpg') %>");
   background-size: cover;
   background-attachment: fixed;
 }
